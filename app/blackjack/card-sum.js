@@ -1,5 +1,5 @@
 import cardValue from './card-value';
 
-export default function cardSum(value1, value2) {
-
+export default function cardSum(a, b) {
+  return cardValue(a) + cardValue(b);
 }
